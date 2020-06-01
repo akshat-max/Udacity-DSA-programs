@@ -1,0 +1,38 @@
+Run time analysis
+
+Task0
+With each function accessing a specific item in the array
+using an index or negative one, each function performs only
+on operation, regardless of input size (n).
+O(0n + 1) + O(0n + 1)
+O(0n + 2)
+
+ans:
+O(1)
+
+Task1
+ we access sequentially both files for two of their
+columns
+ans:
+O(n)
+
+Task2
+Our notation is thus O(1n + 9) or simply O(n).
+
+Ans:
+O(n)
+
+Task3
+our Big O notation might look like
+O(2n + 15) + O(n log n), simplified to O(n log n).
+
+Ans:
+O(n log n)
+
+Task 4
+With 7 operations, 4 for loops and 1 python sort operation (n log n),
+our notation might look like: O(4n + 7) + O(n log n). Simplified to
+O(n log n).
+
+ans:
+O(n log n)
